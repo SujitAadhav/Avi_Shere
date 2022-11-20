@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #000022;
+}
+
+.carousel-inner{
+    height: 70vh;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.carousel-item{
+    height: 70vh;
+}
+
+.carousel-item > img{
+    height: 90vh;
+}
+
+.v-flex{
+    display: flex;
+    /* border: 6px solid red; */
+    flex-wrap: wrap;
+}
+
+.v-width{
+    width: 300px;
+    margin-right: 15px;
+}
